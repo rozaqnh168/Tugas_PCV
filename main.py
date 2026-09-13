@@ -31,7 +31,7 @@ while running:
     # ==========================================
     # 3. PENGOLAHAN CITRA (DETEKSI WARNA)
     # ==========================================
-    ret, frame = cap.read()
+    ret, frame = cap.read() 
     if not ret:
         break
         
